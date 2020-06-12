@@ -20,6 +20,7 @@ body {
   padding: 0;
   margin: 0;
   font-size: 14px;
+
 }
 
 /* line 9, E:/172 Etrain Education/172_Etrain_Education_html/sass/_common.scss */
@@ -2187,8 +2188,8 @@ ul {
 
 /* line 38, E:/172 Etrain Education/172_Etrain_Education_html/sass/_menu.scss */
 .main_menu .main-menu-item ul li .nav-link {
-  color: #0c2e60;
-  font-size: 15px;
+  color:#ffffff ;
+  font-size: 18px;
   padding: 0px 24px;
   font-family: "Roboto", sans-serif;
 }
@@ -2216,11 +2217,13 @@ ul {
 /* line 67, E:/172 Etrain Education/172_Etrain_Education_html/sass/_menu.scss */
 .dropdown-menu {
   border: 0px solid rgba(0, 0, 0, 0.15) !important;
-  background-color: #fafafa;
+  background-color: #ffffff;
+  color: 
 }
 
 /* line 73, E:/172 Etrain Education/172_Etrain_Education_html/sass/_menu.scss */
 .dropdown .dropdown-menu {
+
   transition: all 0.5s;
   overflow: hidden;
   transform-origin: top center;
@@ -2257,12 +2260,14 @@ ul {
   }
   /* line 110, E:/172 Etrain Education/172_Etrain_Education_html/sass/_menu.scss */
   .navbar-collapse {
+    
     z-index: 9999 !important;
     position: absolute;
     left: 0;
     top: 71px;
     width: 100%;
-    background-color: #fff;
+    background-color: #000;
+    color:#fff;
     text-align: center !important;
   }
   /* line 120, E:/172 Etrain Education/172_Etrain_Education_html/sass/_menu.scss */
@@ -2271,6 +2276,7 @@ ul {
   }
   /* line 122, E:/172 Etrain Education/172_Etrain_Education_html/sass/_menu.scss */
   .main_menu .main-menu-item .nav-item {
+    color:#fff;
     padding: 5px 15px !important;
   }
   /* line 124, E:/172 Etrain Education/172_Etrain_Education_html/sass/_menu.scss */
@@ -2312,6 +2318,7 @@ ul {
   .navbar-collapse {
     z-index: 9999 !important;
     position: absolute;
+    color: #000;
     left: 0;
     top: 71px;
     width: 100%;
@@ -2368,6 +2375,7 @@ ul {
     top: 71px;
     width: 100%;
     background-color: #fff;
+    color: #000;
     text-align: center !important;
   }
   /* line 229, E:/172 Etrain Education/172_Etrain_Education_html/sass/_menu.scss */
@@ -7459,3 +7467,73 @@ background-position:center;
   .hero-slides:hover .owl-prev, .hero-slides:hover .owl-next {
     opacity: 1;
     visibility: visible; }
+
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+
+
+
