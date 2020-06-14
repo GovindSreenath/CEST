@@ -519,10 +519,10 @@ ul {
 
 /* line 24, E:/172 Etrain Education/172_Etrain_Education_html/sass/_button.scss */
 .btn_1 {
-  display: inline-block;
+  display:inline-block;
   padding: 13.5px 45px;
   border-radius: 50px;
-  font-size: 12px;
+  font-size: 10px;
   color: #fff;
   -o-transition: all .4s ease-in-out;
   -webkit-transition: all .4s ease-in-out;
@@ -2153,7 +2153,7 @@ ul {
 
 /* line 12, E:/172 Etrain Education/172_Etrain_Education_html/sass/_menu.scss */
 .main_menu .navbar {
-  padding: 20px 0px;
+  padding: 0px 0px;
 }
 
 /* line 15, E:/172 Etrain Education/172_Etrain_Education_html/sass/_menu.scss */
@@ -2420,6 +2420,7 @@ ul {
 /* line 261, E:/172 Etrain Education/172_Etrain_Education_html/sass/_menu.scss */
 .single_page_menu .logo_2 {
   display: none;
+  position: right;
 }
 
 /* line 264, E:/172 Etrain Education/172_Etrain_Education_html/sass/_menu.scss */
@@ -2455,7 +2456,7 @@ ul {
 /* line 291, E:/172 Etrain Education/172_Etrain_Education_html/sass/_menu.scss */
 .menu_fixed .logo_2 {
   display: none;
-  position: left;
+  position: right;
 }
 
 /* line 294, E:/172 Etrain Education/172_Etrain_Education_html/sass/_menu.scss */
@@ -7752,6 +7753,7 @@ img {vertical-align: middle;}
 // -----------------------------
 // Hidden by default for smaller viewports
 .carousel-caption {
+  font-size: inherit;
   position: absolute;
   right: 15%;
   bottom: 20px;
@@ -7806,3 +7808,10 @@ img {vertical-align: middle;}
   }
 }
 
+.notifications{
+  background-color:#000;
+  color:#fff;
+  height:100%
+
+
+}
