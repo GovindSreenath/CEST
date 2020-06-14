@@ -2138,6 +2138,7 @@ ul {
 /**************menu part start*****************/
 /* line 2, E:/172 Etrain Education/172_Etrain_Education_html/sass/_menu.scss */
 .main_menu {
+
   position: absolute;
   left: 0;
   top: 0;
@@ -2189,8 +2190,9 @@ ul {
 /* line 38, E:/172 Etrain Education/172_Etrain_Education_html/sass/_menu.scss */
 .main_menu .main-menu-item ul li .nav-link {
   color:#000;
+  background-color:#fff;
   font-size: 18px;
-  padding: 0px 24px;
+  padding: 5px 24px;
   font-family: "Roboto", sans-serif;
 }
 
@@ -2309,7 +2311,7 @@ ul {
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 155, E:/172 Etrain Education/172_Etrain_Education_html/sass/_menu.scss */
   .single_page_menu .navbar-collapse ul li .nav-link {
-    color: #000 !important;
+    color: #fff !important;
   }
   /* line 162, E:/172 Etrain Education/172_Etrain_Education_html/sass/_menu.scss */
   .navbar-light .navbar-toggler {
@@ -2319,7 +2321,7 @@ ul {
   .navbar-collapse {
     z-index: 9999 !important;
     position: absolute;
-    color: #000;
+    color: #fff;
     left: 0;
     top: 71px;
     width: 100%;
