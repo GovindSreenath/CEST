@@ -4304,7 +4304,7 @@ height: auto;
 
 /* line 65, E:/172 Etrain Education/172_Etrain_Education_html/sass/_cource_details.scss */
 .course_details_left .course_list li .primary-btn:hover {
-  color: #ffffff;
+  color: #000;
 }
 
 @media (max-width: 575px) {
@@ -7830,5 +7830,11 @@ img {vertical-align: middle;}
   color: @carousel-caption-color;
   text-align: center;
   text-shadow: @carousel-text-shadow;
-
+}
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px ;
+  padding: 10px;
+}
 
