@@ -6927,6 +6927,7 @@ h1, h2, h3, h4, h5, h6 {
   background-image: url("../img/bg.png");
   background-repeat: no-repeat;
   background-size:cover;
+  background-position: center center;
   height:100%;
 }
 
