@@ -2429,6 +2429,10 @@ ul {
 
 .single_page_menu .logo_1 {
   display: flex;
+  background-image: url('img/logo.png');
+  background-repeat: no-repeat;
+  width: 10px;
+  height: 20px;
 }
 
 /* line 270, E:/172 Etrain Education/172_Etrain_Education_html/sass/_menu.scss */
@@ -2465,6 +2469,10 @@ ul {
 /* line 294, E:/172 Etrain Education/172_Etrain_Education_html/sass/_menu.scss */
 .menu_fixed .logo_1 {
   display: flex;
+  background-image: url('img/logo.png');
+  background-repeat: no-repeat;
+  width: 10px;
+  height: 20px;
   }
 
 /* line 299, E:/172 Etrain Education/172_Etrain_Education_html/sass/_menu.scss */
@@ -2488,7 +2496,7 @@ background-position: top right;
 .nba{
 background-image: url(../img/nba.png);
 background-repeat: no-repeat;
-background-size:10%;
+background-size:cover;
 background-position: top right;
 }
 .dept{
@@ -7841,6 +7849,9 @@ img {vertical-align: middle;}
 }
 
 .responsive {
-  width: 100%;
+  width: 75px;
   height: auto;
 }
+
+.logo-img{padding-left:20px}}@media (min-width: 768px) and (max-width: 991px){.header-area .main-header-area .logo-img{padding-left:20px}}.header-area .main-header-area
+
