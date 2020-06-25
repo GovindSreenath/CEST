@@ -2428,7 +2428,7 @@ ul {
 
 
 .single_page_menu .logo_1 {
-  display: inherit;
+  display: flex;
 }
 
 /* line 270, E:/172 Etrain Education/172_Etrain_Education_html/sass/_menu.scss */
@@ -2464,7 +2464,7 @@ ul {
 
 /* line 294, E:/172 Etrain Education/172_Etrain_Education_html/sass/_menu.scss */
 .menu_fixed .logo_1 {
-  display: inherit;
+  display: flex;
   }
 
 /* line 299, E:/172 Etrain Education/172_Etrain_Education_html/sass/_menu.scss */
@@ -7839,3 +7839,7 @@ img {vertical-align: middle;}
   padding: 10px;
 }
 
+.responsive {
+  width: 100%;
+  height: auto;
+}
