@@ -28,6 +28,8 @@
 
 .team-member, .team-member .team-img {
     position: relative;
+    height: 200px;
+    width: 200px;
 }
 .team-member {
     overflow: hidden;
@@ -108,6 +110,8 @@
 }
 .team-title h5 {
     margin-bottom: 0px;
+    font-size:16px;
+    font-weight:300px;
     display: block;
     text-transform: uppercase;
 }
@@ -117,3 +121,8 @@
     color: #a5a5a5;
     letter-spacing: 1px;
 }
+
+hr.dashed {
+  border-top: 3px dashed #bbb;
+}
+

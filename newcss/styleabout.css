@@ -212,7 +212,7 @@ h5 {
 
 /* line 116, E:/172 Etrain Education/172_Etrain_Education_html/sass/_common.scss */
 img {
-  max-width:100%;
+  max-width: 100%;
 }
 
 /* line 119, E:/172 Etrain Education/172_Etrain_Education_html/sass/_common.scss */
@@ -2189,10 +2189,10 @@ ul {
 
 /* line 38, E:/172 Etrain Education/172_Etrain_Education_html/sass/_menu.scss */
 .main_menu .main-menu-item ul li .nav-link {
-  color:#FF4500;
-  background-color: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);;
+  color:#000;
+  background-color:#fff;
   font-size: 18px;
-  padding: 5px 40px;
+  padding: 5px 24px;
   font-family: "Roboto", sans-serif;
 }
 
@@ -2427,12 +2427,11 @@ ul {
 
 
 
+
 .single_page_menu .logo_1 {
-  display: flex;
-  background-image: url('img/logo.png');
-  background-repeat: no-repeat;
-  width: 10px;
-  height: 20px;
+  
+ 
+  display: inherit;
 }
 
 /* line 270, E:/172 Etrain Education/172_Etrain_Education_html/sass/_menu.scss */
@@ -2468,11 +2467,7 @@ ul {
 
 /* line 294, E:/172 Etrain Education/172_Etrain_Education_html/sass/_menu.scss */
 .menu_fixed .logo_1 {
-  display: flex;
-  background-image: url('img/logo.png');
-  background-repeat: no-repeat;
-  width: 10px;
-  height: 20px;
+  display: inherit;
   }
 
 /* line 299, E:/172 Etrain Education/172_Etrain_Education_html/sass/_menu.scss */
@@ -2496,7 +2491,7 @@ background-position: top right;
 .nba{
 background-image: url(../img/nba.png);
 background-repeat: no-repeat;
-background-size:cover;
+background-size:10%;
 background-position: top right;
 }
 .dept{
@@ -7021,8 +7016,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 2, E:/172 Etrain Education/172_Etrain_Education_html/sass/_footer.scss */
 .footer-area {
-  
-  background-image: url("bg.png");
+  background-color: #f7f7f7;
   padding: 100px 0px 20px;
 }
 
@@ -7847,11 +7841,4 @@ img {vertical-align: middle;}
   border: 3px ;
   padding: 10px;
 }
-
-.responsive {
-  width: 75px;
-  height: auto;
-}
-
-.logo-img{padding-left:20px}}@media (min-width: 768px) and (max-width: 991px){.header-area .main-header-area .logo-img{padding-left:20px}}.header-area .main-header-area
 
